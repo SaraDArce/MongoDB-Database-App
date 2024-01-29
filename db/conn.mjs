@@ -13,6 +13,6 @@ try {
   console.log(err);
 }
 
-let db = conn.db("MadlandBookingTest.Users-and-Band-Admins");
+let db = conn.db("madland_booking.users");
 
 export default db;
