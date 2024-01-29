@@ -1,5 +1,5 @@
 const express = require("express");
-const InquiryController = require("../controllers/Inquiry");
+const InquiryController = require("../controllers/Inquiry.mjs");
 const router = express.Router();
 router.get("/", InquiryController.findAll);
 router.get("/:id", InquiryController.findOne);

@@ -1,5 +1,5 @@
 const express = require("express");
-const BandAdminController = require("../controllers/BandAdmin");
+const BandAdminController = require("../controllers/BandAdmin.mjs");
 const router = express.Router();
 router.get("/", BandAdminController.findAll);
 router.get("/:id", BandAdminController.findOne);
